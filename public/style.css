@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.body {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: linear-gradient(40deg, #967E76, #9BABB8);
+}
+
+.calculator {
+    border: 2px solid #717377;
+    padding: 20px;
+    border-radius: 20px;
+    background: transparent;
+    box-shadow: -9px 6px 15px 10px rgba(74, 72, 72, 0.979);
+
+}
+
+#screen {
+    height: 70px;
+    width: 100%;
+    background: transparent;
+    border: none;
+    box-shadow: -8px 7px 15px -4px rgba(86, 80, 80, 0.979);
+    text-align: right;
+    cursor: pointer;
+    border-radius: 10px;
+    overflow: auto;
+    margin-bottom: 15px;
+}
+
+#screen::placeholder {
+    font-size: 25px;
+    padding: 0px 5px;
+    color: rgb(93, 91, 91);
+
+}
+
+button {
+    border: none;
+    width: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    height: 60px;
+    background: transparent;
+    box-shadow: -8px 7px 15px -1px rgba(0, 0, 0, 0.69);
+}
+
+#ac,
+#del,
+#percentage,
+#divide,
+#mul,
+#add,
+#sub {
+    color: #EEE3CB;
+    background-color: #717377;
+}
+#equal{
+    color: #c94216;
+    background-color: #9BABB8;
+}
+
+
+.sign{
+    position:fixed;
+    bottom: 10px;
+    left: 20px;
+}
+
+.sign h5{
+    color: #717377;
+    font-weight: 10;
+}
